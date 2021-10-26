@@ -1,0 +1,5 @@
+name: python-M2TTD-environment
+channels:
+  - conda-forge
+dependencies:
+  - lxml

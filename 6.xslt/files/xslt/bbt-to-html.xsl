@@ -40,7 +40,7 @@
         <xsl:value-of select="."/>
     </xsl:template>
 
-    <!-- cadidate 'author' -->
+    <!-- candidate 'author' -->
     <xsl:template match="author">
         <!-- copy the textual content of the current node -->
         <xsl:value-of select="."/>

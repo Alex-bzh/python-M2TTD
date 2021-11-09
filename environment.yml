@@ -3,3 +3,6 @@ channels:
   - conda-forge
 dependencies:
   - lxml
+  - pip
+  - pip:
+    - googletrans==4.0.0rc1

@@ -2,10 +2,13 @@ name: python-M2TTD-environment
 channels:
   - conda-forge
 dependencies:
-  - beautifulsoup4
+  - beautifulsoup4=4.11
+  - jupyterlab=3.4
+  - jupyterlab-latex=3.1
   - lxml
-  - nltk
-  - pandas
+  - nltk=3.6
+  - pandas=1.4
+  - python=3.10
   - pip
   - pip:
     - googletrans==4.0.0rc1

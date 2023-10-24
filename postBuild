@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# create lib folder
+mkdir -p ~/lib && cd ~/lib
+
+#
+# saxon-lint
+#
+
+# install
+git clone https://github.com/sputnick-dev/saxon-lint.git
+cd saxon-lint*
+chmod +x saxon-lint.pl
+
+# add saxon-lint.pl to PATH variable
+echo "PATH=$PATH:~/lib/saxon-lint" >> ~/.bashrc
+
+# make an alias
+echo "alias saxon-lint='saxon-lint.pl'" >> ~/.bashrc
+
+# validation
+source ~/.bashrc
+
+cd ~/lib
+
+#
+# quarto
+#
+
+# install
+git clone https://github.com/quarto-dev/quarto-cli
+cd quarto-cli
+./configure.sh
+
+# tex 4 quarto
+quarto install tinytex
+
+cd ~/lib

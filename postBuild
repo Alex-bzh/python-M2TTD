@@ -22,17 +22,3 @@ echo "alias saxon-lint='saxon-lint.pl'" >> ~/.bashrc
 source ~/.bashrc
 
 cd ~/lib
-
-#
-# quarto
-#
-
-# install
-git clone https://github.com/quarto-dev/quarto-cli
-cd quarto-cli
-./configure.sh
-
-# tex 4 quarto
-quarto install tinytex
-
-cd ~/lib

@@ -2,9 +2,11 @@
 
 Resources for Master TeTraDom, second degree, at Inalco.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Alex-bzh/python-M2TTD/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Alex-bzh/python-M2TTD/HEAD)
 
 ## Installation – for those who like not to ask too many questions
+
+### With `conda`
 
 1. Download Miniconda, a small version of Anaconda with conda, Python, and some useful packages:  
 https://docs.conda.io/en/latest/miniconda.html
@@ -22,6 +24,24 @@ $ cd python-M2TTD
 $ conda env create -f environment.yml
 $ conda activate python-M2TTD-environment
 $ jupyter-lab
+```
+
+### With `pixi`
+
+1. Install [Pixi](https://pixi.sh/), a (modern) package management tool
+
+2. Get a clone of this repository:
+
+```
+$ git clone https://github.com/Alex-bzh/python-M2TTD.git
+$ cd python-M2TTD
+```
+
+3. Run JupyterLab in its own environment:
+
+```
+$ pixi install
+$ pixi run start
 ```
 
 ## Installation – for those who want to have fine control over what they install

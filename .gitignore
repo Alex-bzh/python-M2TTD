@@ -130,3 +130,7 @@ dmypy.json
 
 # MAC OS
 .DS_Store
+
+# Pixi
+pixi.lock
+.pixi/

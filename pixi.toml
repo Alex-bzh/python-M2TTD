@@ -12,4 +12,6 @@ start = "jupyter lab"
 [dependencies]
 jupyterlab = "4.2.*"
 jupyterlab-latex = "4.*"
+matplotlib = "3.9.*"
+numpy = "2.1.*"
 python = "3.11.*"

@@ -7,4 +7,4 @@ dependencies:
   - jupyterlab-latex=4.0
   - matplotlib=3.7
   - numpy=2.1
-  - python=3.11
+  - python=3.13

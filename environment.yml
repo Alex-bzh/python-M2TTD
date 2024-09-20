@@ -1,4 +1,4 @@
-name: python-M2TTD-environment
+name: TALA530B
 channels:
   - conda-forge
 dependencies:

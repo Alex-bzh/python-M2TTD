@@ -9,4 +9,5 @@ dependencies:
   - numpy
   - pandas=2.2.3
   - python=3.11
+  - scipy
   - seaborn=0.13

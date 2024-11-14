@@ -1,0 +1,21 @@
+
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cluster A -->
+  <circle cx="100" cy="100" r="5" fill="blue" />
+  <circle cx="120" cy="100" r="5" fill="blue" />
+  <circle cx="110" cy="120" r="5" fill="blue" />
+
+  <!-- Cluster B -->
+  <circle cx="250" cy="100" r="5" fill="red" />
+  <circle cx="270" cy="100" r="5" fill="red" />
+  <circle cx="260" cy="120" r="5" fill="red" />
+
+  <!-- Flèche entre les points les plus éloignés -->
+  <line x1="100" y1="100" x2="270" y2="100" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="265,95 270,100 265,105" fill="black"/>
+  
+  <!-- Texte -->
+  <text x="105" y="80" font-family="Arial" font-size="12" fill="black">Cluster A</text>
+  <text x="245" y="80" font-family="Arial" font-size="12" fill="black">Cluster B</text>
+  <text x="160" y="150" font-family="Arial" font-size="12" fill="black">Liaison complète</text>
+</svg>

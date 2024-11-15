@@ -1,21 +1,19 @@
 
-<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="350" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Cluster A -->
-  <circle cx="100" cy="100" r="5" fill="blue" />
-  <circle cx="120" cy="100" r="5" fill="blue" />
-  <circle cx="110" cy="120" r="5" fill="blue" />
+  <circle cx="90" cy="90" r="7" fill="#4a90e2" stroke="#2c3e50" stroke-width="1" />
+  <circle cx="110" cy="110" r="7" fill="#4a90e2" stroke="#2c3e50" stroke-width="1" />
+  <circle cx="100" cy="130" r="7" fill="#4a90e2" stroke="#2c3e50" stroke-width="1" />
 
   <!-- Cluster B -->
-  <circle cx="250" cy="100" r="5" fill="red" />
-  <circle cx="270" cy="100" r="5" fill="red" />
-  <circle cx="260" cy="120" r="5" fill="red" />
+  <circle cx="250" cy="110" r="7" fill="#e94e77" stroke="#7f1d1d" stroke-width="1" />
+  <circle cx="270" cy="90" r="7" fill="#e94e77" stroke="#7f1d1d" stroke-width="1" />
+  <circle cx="260" cy="130" r="7" fill="#e94e77" stroke="#7f1d1d" stroke-width="1" />
 
-  <!-- Flèche entre les points les plus proches -->
-  <line x1="120" y1="100" x2="250" y2="100" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
-  <polygon points="245,95 250,100 245,105" fill="black"/>
-  
+  <!-- Ligne de liaison entre les points les plus proches -->
+  <line x1="117" y1="110" x2="245" y2="110" stroke="#34495e" stroke-width="2.5" stroke-dasharray="5,5"/>
+
   <!-- Texte -->
-  <text x="105" y="80" font-family="Arial" font-size="12" fill="black">Cluster A</text>
-  <text x="245" y="80" font-family="Arial" font-size="12" fill="black">Cluster B</text>
-  <text x="160" y="150" font-family="Arial" font-size="12" fill="black">Liaison simple</text>
+  <text x="75" y="70" font-family="Arial" font-size="14" fill="#000">Cluster A</text>
+  <text x="245" y="70" font-family="Arial" font-size="14" fill="#000">Cluster B</text>
 </svg>

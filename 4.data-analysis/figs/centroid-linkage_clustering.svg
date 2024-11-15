@@ -1,0 +1,27 @@
+
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cluster A -->
+  <circle cx="70" cy="80" r="5" fill="#4a90e2" stroke="#2c3e50" stroke-width="1" />
+  <circle cx="110" cy="100" r="5" fill="#4a90e2" stroke="#2c3e50" stroke-width="1" />
+  <circle cx="80" cy="140" r="5" fill="#4a90e2" stroke="#2c3e50" stroke-width="1" />
+  <circle cx="100" cy="160" r="5" fill="#4a90e2" stroke="#2c3e50" stroke-width="1" />
+  <circle cx="60" cy="100" r="5" fill="#4a90e2" stroke="#2c3e50" stroke-width="1" /> <!-- Déplacement du point -->
+
+  <!-- Cluster B -->
+  <circle cx="250" cy="100" r="5" fill="#e94e77" stroke="#7f1d1d" stroke-width="1" />
+  <circle cx="270" cy="80" r="5" fill="#e94e77" stroke="#7f1d1d" stroke-width="1" />
+  <circle cx="290" cy="120" r="5" fill="#e94e77" stroke="#7f1d1d" stroke-width="1" />
+  <circle cx="260" cy="140" r="5" fill="#e94e77" stroke="#7f1d1d" stroke-width="1" />
+  <circle cx="280" cy="160" r="5" fill="#e94e77" stroke="#7f1d1d" stroke-width="1" />
+
+  <!-- Centroïdes -->
+  <circle cx="90" cy="120" r="8" fill="none" stroke="#34495e" stroke-width="2" /> <!-- Centroïde Cluster A -->
+  <circle cx="270" cy="120" r="8" fill="none" stroke="#7f1d1d" stroke-width="2" /> <!-- Centroïde Cluster B -->
+
+  <!-- Ligne de liaison entre les centroïdes -->
+  <line x1="100" y1="120" x2="263" y2="120" stroke="#34495e" stroke-width="2.5" stroke-dasharray="5,5"/>
+
+  <!-- Texte -->
+  <text x="50" y="60" font-family="Arial" font-size="14" fill="#000">Cluster A</text>
+  <text x="230" y="60" font-family="Arial" font-size="14" fill="#000">Cluster B</text>
+</svg>

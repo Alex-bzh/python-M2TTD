@@ -1,0 +1,52 @@
+
+<svg width="400" height="320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Points in Cluster 1 (warm color) -->
+  <circle cx="50" cy="75" r="7" fill="#FF6347" />
+  <circle cx="60" cy="68" r="7" fill="#FF6347" />
+  <circle cx="70" cy="85" r="7" fill="#FF6347" />
+  <circle cx="80" cy="105" r="7" fill="#FF6347" />
+  <circle cx="90" cy="115" r="7" fill="#FF6347" />
+  <circle cx="100" cy="120" r="7" fill="#FF6347" />
+  <circle cx="110" cy="100" r="7" fill="#FF6347" />
+  <circle cx="120" cy="98" r="7" fill="#FF6347" />
+  <circle cx="140" cy="115" r="7" fill="#FF6347" />
+  <circle cx="140" cy="135" r="7" fill="#FF6347" />
+  <circle cx="150" cy="140" r="7" fill="#FF6347" />
+  <circle cx="150" cy="80" r="7" fill="#FF6347" />
+  <circle cx="160" cy="155" r="7" fill="#FF6347" />
+  <circle cx="170" cy="145" r="7" fill="#FF6347" />
+  <circle cx="180" cy="130" r="7" fill="#FF6347" />
+  <circle cx="190" cy="125" r="7" fill="#FF6347" />
+  <circle cx="200" cy="130" r="7" fill="#FF6347" />
+  <circle cx="210" cy="145" r="7" fill="#FF6347" />
+  
+  <!-- Points in Cluster 2 (cool color) -->
+  <circle cx="230" cy="170" r="7" fill="#4682B4" />
+  <circle cx="240" cy="155" r="7" fill="#4682B4" />
+  <circle cx="250" cy="180" r="7" fill="#4682B4" />
+  <circle cx="260" cy="160" r="7" fill="#4682B4" />
+  <circle cx="270" cy="170" r="7" fill="#4682B4" />
+  <circle cx="280" cy="190" r="7" fill="#4682B4" />
+  <circle cx="290" cy="195" r="7" fill="#4682B4" />
+  <circle cx="300" cy="250" r="7" fill="#4682B4" />
+  <circle cx="310" cy="230" r="7" fill="#4682B4" />
+  <circle cx="320" cy="235" r="7" fill="#4682B4" />
+  <circle cx="330" cy="240" r="7" fill="#4682B4" />
+  <circle cx="340" cy="250" r="7" fill="#4682B4" />
+  <circle cx="350" cy="275" r="7" fill="#4682B4" />
+  <circle cx="340" cy="290" r="7" fill="#4682B4" />
+  <circle cx="370" cy="200" r="7" fill="#4682B4" />
+
+  <!-- New Cluster Centroids -->
+  <circle cx="127.17" cy="112.39" r="8" fill="red" stroke="black" stroke-width="2" />
+  <circle cx="295" cy="213.5" r="8" fill="blue" stroke="black" stroke-width="2" />
+
+  <!-- Cluster boundaries -->
+  <circle cx="127.17" cy="112.39" r="95" fill="none" stroke="red" stroke-width="2" stroke-dasharray="4" />
+  <circle cx="295" cy="213.5" r="95" fill="none" stroke="blue" stroke-width="2" stroke-dasharray="4" />
+
+  <!-- Labels -->
+  <text x="140" y="100" font-size="14" font-weight="bold" font-family="Arial" fill="black" text-anchor="middle">k1</text>
+  <text x="310" y="205" font-size="14" font-weight="bold" font-family="Arial" fill="black" text-anchor="middle">k2</text>
+</svg>
+

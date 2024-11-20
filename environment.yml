@@ -11,3 +11,4 @@ dependencies:
   - python=3.11
   - scipy
   - seaborn=0.13
+  - scikit-learn
